@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{F6FDB244-CEE8-4FB3-B0C7-B3FE99B2A444}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KooliProjekt.UnitTests", "KooliProjekt.UnitTests\KooliProjekt.UnitTests.csproj", "{17130318-ED6A-4FE2-B140-A3354E536716}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6FDB244-CEE8-4FB3-B0C7-B3FE99B2A444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6FDB244-CEE8-4FB3-B0C7-B3FE99B2A444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6FDB244-CEE8-4FB3-B0C7-B3FE99B2A444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6FDB244-CEE8-4FB3-B0C7-B3FE99B2A444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17130318-ED6A-4FE2-B140-A3354E536716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17130318-ED6A-4FE2-B140-A3354E536716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17130318-ED6A-4FE2-B140-A3354E536716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17130318-ED6A-4FE2-B140-A3354E536716}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EB712AE-91F6-4B26-B968-2DCB535E55BD}
+	EndGlobalSection
+EndGlobal

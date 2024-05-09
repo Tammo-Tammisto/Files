@@ -1,0 +1,10 @@
+C:\Projects\ToDoApplicationWinForms\ToDoApplicationMVP.Shared\bin\Debug\netstandard2.1\ToDoApplicationMVP.Shared.deps.json
+C:\Projects\ToDoApplicationWinForms\ToDoApplicationMVP.Shared\bin\Debug\netstandard2.1\ToDoApplicationMVP.Shared.dll
+C:\Projects\ToDoApplicationWinForms\ToDoApplicationMVP.Shared\bin\Debug\netstandard2.1\ToDoApplicationMVP.Shared.pdb
+C:\Projects\ToDoApplicationWinForms\ToDoApplicationMVP.Shared\obj\Debug\netstandard2.1\ToDoApplicationMVP.Shared.csproj.AssemblyReference.cache
+C:\Projects\ToDoApplicationWinForms\ToDoApplicationMVP.Shared\obj\Debug\netstandard2.1\ToDoApplicationMVP.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ToDoApplicationWinForms\ToDoApplicationMVP.Shared\obj\Debug\netstandard2.1\ToDoApplicationMVP.Shared.AssemblyInfoInputs.cache
+C:\Projects\ToDoApplicationWinForms\ToDoApplicationMVP.Shared\obj\Debug\netstandard2.1\ToDoApplicationMVP.Shared.AssemblyInfo.cs
+C:\Projects\ToDoApplicationWinForms\ToDoApplicationMVP.Shared\obj\Debug\netstandard2.1\ToDoApplicationMVP.Shared.csproj.CoreCompileInputs.cache
+C:\Projects\ToDoApplicationWinForms\ToDoApplicationMVP.Shared\obj\Debug\netstandard2.1\ToDoApplicationMVP.Shared.dll
+C:\Projects\ToDoApplicationWinForms\ToDoApplicationMVP.Shared\obj\Debug\netstandard2.1\ToDoApplicationMVP.Shared.pdb

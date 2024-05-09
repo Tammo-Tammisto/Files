@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Failid2", "Failid2\Failid2.csproj", "{D8B82A1D-5D49-4DBD-BD72-6A49BFB5FB6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8B82A1D-5D49-4DBD-BD72-6A49BFB5FB6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B82A1D-5D49-4DBD-BD72-6A49BFB5FB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B82A1D-5D49-4DBD-BD72-6A49BFB5FB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B82A1D-5D49-4DBD-BD72-6A49BFB5FB6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5B53937-62DE-4CDF-AB6C-E695902E0AF7}
+	EndGlobalSection
+EndGlobal

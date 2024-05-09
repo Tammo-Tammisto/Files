@@ -1,0 +1,77 @@
+﻿@model PagedResult<WebApplication1.Data.TodoItem>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<p>
+    <form method="get">
+        <div class="col-lg-4">
+            <div class="form-group">
+                <label class="control-label">TodoList</label>
+                <select name="ListId" value='@this.Context.Request.Query["ListId"]' class="form-control" asp-items="ViewBag.TodoListId">
+                    <option>-</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="form-group">
+                <label class="control-label">Item</label>
+                <input type="text" name="Item" value='@this.Context.Request.Query["Item"]' class="form-control" />
+            </div>
+        </div>
+        <p>
+            <button type="submit" class="btn btn-primary">Filter</button> 
+            <button type="reset" class="btn btn-secondary">Clear</button>
+        </p>
+    </form>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Title
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                IsDone
+            </th>
+            <th>
+                TodoList
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.Results) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsDone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TodoList.Title)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<vc:pager result="@Model" view-name="Default" />

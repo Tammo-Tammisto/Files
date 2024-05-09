@@ -1,0 +1,149 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\ToDoApplicationWinForms\\ToDoApplicationMVP\\ToDoApplicationMVP.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\ToDoApplicationWinForms\\ToDoApplicationMVP.Shared\\ToDoApplicationMVP.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\ToDoApplicationWinForms\\ToDoApplicationMVP.Shared\\ToDoApplicationMVP.Shared.csproj",
+        "projectName": "ToDoApplicationMVP.Shared",
+        "projectPath": "C:\\Projects\\ToDoApplicationWinForms\\ToDoApplicationMVP.Shared\\ToDoApplicationMVP.Shared.csproj",
+        "packagesPath": "C:\\Users\\gpeip\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\ToDoApplicationWinForms\\ToDoApplicationMVP.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gpeip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/brightspark/auth/b101a971-03c8-4bef-9e04-4e39625faf02/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\ToDoApplicationWinForms\\ToDoApplicationMVP\\ToDoApplicationMVP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\ToDoApplicationWinForms\\ToDoApplicationMVP\\ToDoApplicationMVP.csproj",
+        "projectName": "ToDoApplicationMVP",
+        "projectPath": "C:\\Projects\\ToDoApplicationWinForms\\ToDoApplicationMVP\\ToDoApplicationMVP.csproj",
+        "packagesPath": "C:\\Users\\gpeip\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\ToDoApplicationWinForms\\ToDoApplicationMVP\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gpeip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/brightspark/auth/b101a971-03c8-4bef-9e04-4e39625faf02/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Projects\\ToDoApplicationWinForms\\ToDoApplicationMVP.Shared\\ToDoApplicationMVP.Shared.csproj": {
+                "projectPath": "C:\\Projects\\ToDoApplicationWinForms\\ToDoApplicationMVP.Shared\\ToDoApplicationMVP.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
